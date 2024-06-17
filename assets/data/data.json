@@ -1,128 +1,201 @@
 {
-    "title": "Thomas A. Anderson (Neo) | Portafolio",
-    "description": "Soy Neo, posiblemente el mejor programador de la historia.",
-    "image": "/avatar.jpg",
-    "avatar": "/avatar.jpg",
-    "name": "Thomas A. Anderson (Neo)",
-    "skill": "Programador, hacker y el Elegido",
-    "location": "Matrix y el mundo real",
-    "media": {
-        "email": "neo@metacortex.com",
-        "cv": "/data/cv.pdf",
-        "github": "https://github.com/thomasanderson",
-        "likedin": "https://linkedin.com/in/thomasanderson"
+  "title": "Cristian Morataya | Portafolio",
+  "description": "Soy Cristian, desarrollador web fullstack.",
+  "image": "/avatar.jpeg",
+  "avatar": "/avatar.jpeg",
+  "name": "Cristian Morataya",
+  "skill": "Programador Web Fullstack",
+  "location": "Guatemala",
+  "media": {
+    "email": "cbmorataya@gmail.com",
+    "cv": "/data/cv.pdf",
+    "github": "https://github.com/ccmorataya",
+    "likedin": "https://linkedin.com/in/ccmorataya"
+  },
+  "about": "Soy un programador con más de 9 años de experiencia en desarrollo web, he colaborado en roles como Frontend y Backend, adicional poseo conocimientos en servidores y en tecnologías de la nube como Amazon AWS. Soy capaz de aprender rápidamente y soy apasionado a la tecnología, dispuesto a ayudarte a despegar tu proyecto.",
+  "technologies": [
+    {
+      "icon": "devicon-typescript-plain",
+      "name": "Typescript"
     },
-    "about": "Soy un programador inquieto con una doble vida, ya que trabajo en una prestigiosa empresa de software pero también he cometido todos los crímenes informáticos que existen. Tengo la sensación de que nada es lo que parece ser.",
-    "technologies": [
+    {
+      "icon": "devicon-html5-plain",
+      "name": "HTML5"
+    },
+    {
+      "icon": "devicon-css3-plain",
+      "name": "CSS3"
+    },
+    {
+      "icon": "devicon-csharp-plain",
+      "name": "C#"
+    },
+    {
+      "icon": "devicon-python-plain",
+      "name": "Python"
+    },
+    {
+      "icon": "devicon-php-plain",
+      "name": "PHP"
+    },
+    {
+      "icon": "devicon-java-plain",
+      "name": "Java"
+    },
+    {
+      "icon": "devicon-codeigniter-plain",
+      "name": "Codeigniter"
+    },
+    {
+      "icon": "devicon-angular-plain",
+      "name": "Angular"
+    },
+    {
+      "icon": "devicon-tailwindcss-plain",
+      "name": "TailwindCSS"
+    },
+    {
+      "icon": "devicon-astro-plain",
+      "name": "AstroJS"
+    },
+    {
+      "icon": "devicon-mysql-plain",
+      "name": "MySQL"
+    },
+    {
+      "icon": "devicon-amazonwebservices-plain",
+      "name": "Amazon AWS"
+    }
+  ],
+  "experience": [
+    {
+      "icon": "terminal",
+      "title": "Banco Industrial",
+      "subtitle": "Desarrollador Frontend",
+      "description": "Desarrollo frontend (Angular 12+) desarrollo basado en rutas, diseño y desarrollo de componentes, transformación de diseño de prototipos en Figma en una aplicación adaptable en dispositivos móviles y web, uso de CSS (Tailwind 3) con clases por defecto y personalizadas, uso de metodología SCRUM, implementación de componentes de terceros, módulos y librerías, creación de archivos de pruebas unitarias (Jest/Jasmine). Utilización de servicios de AWS para manejo de despliegues vía CloudFront, integración de Github para CI/CD.",
+      "date": "Enero 2022 - Mayo 2024"
+    },
+    {
+      "icon": "terminal",
+      "title": "CADS/Grupo Tecún",
+      "subtitle": "Desarrollador Fullstack",
+      "description": "Desarrollador web (Angular 7, Java), diseño frontend, desarrollo de módulos para sistema ERP, desarrollo de funcionalidades para servicios web existentes, desarrollo de reportes embebidos (Jasper), metodología SCRUM, desarrollo de funcionalidades específicas para el backend (API), resolución y seguimiento de tickets generados por usuarios relacionado a inconvenientes en ambiente de producción.",
+      "date": "Septiembre 2018 - Diciembre 2021"
+    },
+    {
+      "icon": "terminal",
+      "title": "Pronet/Almo Technology",
+      "subtitle": "Desarrollador de Software",
+      "description": "Desarrollo en Java y PHP, desarrollo e implementación de servicios web, soporte IT, configuración de servidores CentOS, configuración de base de datos (MySQL), configuración de servidor para repositorios internos (Gitlab), entrenamiento y servicio al usuario, generación de documentación relacionada a los desarrollos implementados.",
+      "date": "Marzo 2017 - Agosto 2018"
+    }
+  ],
+  "projects": [
+    {
+      "icon": "landmark",
+      "title": "Cotizador de créditos empresariales",
+      "subtitle": "Proyecto en continuo desarrollo",
+      "description": "Portal web para cotizar y solicitar créditos empresariales",
+      "technologies": [
         {
-            "icon": "devicon-devicon-plain",
-            "name": "Binario"
+          "icon": "devicon-angular-plain",
+          "name": "Angular"
         },
         {
-            "icon": "devicon-devicon-plain",
-            "name": "Ensamblador"
+          "icon": "devicon-tailwindcss-plain",
+          "name": "TailwindCSS"
         },
         {
-            "icon": "devicon-devicon-plain",
-            "name": "COBOL"
+          "icon": "devicon-amazonwebservices-plain",
+          "name": "Amazon AWS"
         },
         {
-            "icon": "devicon-c-plain",
-            "name": "C"
-        },
-        {
-            "icon": "devicon-python-plain",
-            "name": "Python"
+          "icon": "devicon-github-plain",
+          "name": "Github"
         }
-    ],
-    "experience": [
+      ],
+      "image": "/projects/project_1.png",
+      "url": "https://bancaempresarial.bi.com.gt"
+    },
+    {
+      "icon": "drumstick",
+      "title": "Sistema de ventas de comida rápida",
+      "subtitle": "Implementado en un pequeño negocio de pollo frito",
+      "description": "Sistema para la gestión de ventas de comida rápida, con módulo de login y control de inventarios, emisión de ticket de venta",
+      "technologies": [
         {
-            "icon": "terminal",
-            "title": "Metacortex",
-            "subtitle": "Programador",
-            "description": "Programo software respetable desde un cubículo.",
-            "date": "1999"
+          "icon": "devicon-php-plain",
+          "name": "PHP"
         },
         {
-            "icon": "rabbit",
-            "title": "Nebuchadnezzar",
-            "subtitle": "El Elegido",
-            "description": "Me encargo de salvar el mundo.",
-            "date": "1999 - Actualidad"
+          "icon": "devicon-javascript-plain",
+          "name": "Javascript"
+        },
+        {
+          "icon": "devicon-bootstrap-plain",
+          "name": "Bootstrap"
+        },
+        {
+          "icon": "devicon-mysql-plain",
+          "name": "MySQL"
+        },
+        {
+          "icon": "devicon-codeigniter-plain",
+          "name": "Codeigniter"
         }
-    ],
-    "projects": [
+      ],
+      "image": "/projects/project_2.jpeg"
+    },
+    {
+      "icon": "panels-top-left",
+      "title": "Evisio - SEO Management",
+      "subtitle": "Proyecto para cliente internacional",
+      "description": "Sistema de analisis SEO integrado con funcionalidades para la mención de personas dentro de los tickets de revisión, interacción con la Base de Datos para obtener los datos de los usuarios que se pueden asignar.",
+      "technologies": [
         {
-            "icon": "bar-chart-4",
-            "title": "Software random",
-            "subtitle": "Software propiedad de Metacortex",
-            "description": "Herramienta para hacer rico a otras personas.",
-            "technologies": [
-                {
-                    "icon": "devicon-python-plain",
-                    "name": "Python"
-                },
-                {
-                    "icon": "devicon-django-plain",
-                    "name": "Django"
-                }
-            ],
-            "image": "/project_1.jpg",
-            "url": "https://matrix.fandom.com/wiki/MetaCortex",
-            "github": "https://github.com/thomasanderson"
+          "icon": "devicon-php-plain",
+          "name": "PHP"
         },
         {
-            "icon": "bug-off",
-            "title": "Hackeo Matrix",
-            "subtitle": "Mi obra maestra",
-            "description": "Migración del Matrix al mundo real y hackeo del sistema ficticio para salvar a la humanidad.",
-            "technologies": [
-                {
-                    "icon": "devicon-devicon-plain",
-                    "name": "Binario"
-                }
-            ],
-            "image": "/project_2.jpg",
-            "url": "https://matrix.fandom.com/wiki/Wiki",
-            "github": "https://github.com/thomasanderson"
+          "icon": "devicon-javascript-plain",
+          "name": "Javascript"
+        },
+        {
+          "icon": "devicon-mysql-plain",
+          "name": "MySQL"
+        },
+        {
+          "icon": "devicon-codeigniter-plain",
+          "name": "Codeigniter"
         }
-    ],
-    "training": [
-        {
-            "icon": "backpack",
-            "title": "Central West Junior High",
-            "subtitle": "Una escuela",
-            "description": "Aprendí cosas.",
-            "date": "Indeterminado",
-            "certificate": "https://en.wikipedia.org/wiki/Neo_(The_Matrix)"
-        },
-        {
-            "icon": "graduation-cap",
-            "title": "Owen Patterson High",
-            "subtitle": "Otra escuela",
-            "description": "Aprendí más cosas.",
-            "date": "Indeterminado",
-            "certificate": "https://en.wikipedia.org/wiki/Neo_(The_Matrix)"
-        }
-    ],
-    "extras": [
-        {
-            "image": "/extra_1.jpg",
-            "title": "The Matrix",
-            "description": "Aparecí en esta película.",
-            "url": "https://en.wikipedia.org/wiki/The_Matrix"
-        },
-        {
-            "image": "/extra_2.jpg",
-            "title": "The Matrix Reloaded",
-            "description": "Y en esta otra.",
-            "url": "https://en.wikipedia.org/wiki/The_Matrix_Reloaded"
-        },
-        {
-            "image": "/extra_3.jpg",
-            "title": "The Matrix Revolutions",
-            "description": "Y en esta más.",
-            "url": "https://en.wikipedia.org/wiki/The_Matrix_Revolutions"
-        }
-    ]
+      ],
+      "image": "/projects/project_3.jpeg",
+      "url": "https://evisio.co"
+    }
+  ],
+  "training": [
+    {
+      "icon": "university",
+      "title": "Universidad de la Rioja",
+      "subtitle": "Ingeniería en Sistemas Computacionales",
+      "description": "Actualmente cursando la carrera, con el objetivo de obtener el título de Ingeniero en Sistemas Computacionales.",
+      "date": "En curso"
+    },
+    {
+      "icon": "shield-check",
+      "title": "AWS Cloud Practitioner",
+      "subtitle": "Certificado de Amazon Web Services",
+      "description": "Nociones básicas de la nube de Amazon, servicios y arquitectura de AWS.",
+      "date": "Agosto 2022",
+      "certificate": "https://www.credly.com/badges/7343204a-2a39-40df-af2b-f9a9c077970a"
+    }
+  ],
+  "extras": [
+    {
+      "image": "/projects/extra_1.png",
+      "title": "pyngDeploy",
+      "description": "Aplicación de consola usada para la compilación y publicación de proyectos Angular en un servidor sftp con archivo de configuración.",
+      "url": "https://pypi.org/project/py-ng-deploy/"
+    }
+  ]
 }

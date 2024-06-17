@@ -24,7 +24,7 @@ def index() -> rx.Component:
             info("Formación", DATA.training),
             extra(DATA.extras),
             rx.divider(),
-            footer(DATA.media),
+            footer(DATA),
             spacing=Size.MEDIUM.value,
             padding_x=EmSize.MEDIUM.value,
             padding_y=EmSize.BIG.value,
@@ -39,7 +39,7 @@ app = rx.App(
     style=BASE_STYLE,
     theme=rx.theme(
         appearance="dark",
-        accent_color="grass",
+        accent_color="indigo",
         radius="full"
     )
 )
